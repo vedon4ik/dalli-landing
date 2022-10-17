@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="images/favicon.svg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Служба доставки для интернет-магазина</title>
+</head>
+  <body>
+  <div class="wrapper">
+    <header class="header">
+    <div class="container">
+        <div class="header__body">
+            <div class="header__blur-block"></div>
+            <div class="header__left">
+                <div class="header__logo">
+                    <img src="images/header/logo.svg" alt="">
+                </div>
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <div class="menu__body">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a data-goto=".firstscreen" class="menu__link" href="">Главная</a></li>
+                            <li class="menu__item"><a data-goto=".statistics" class="menu__link" href="">Показатели</a></li>
+                            <li class="menu__item"><a data-goto=".tariffs" class="menu__link" href="">Тарифы</a></li>
+                            <li class="menu__item"><a data-goto=".more-advantages" class="menu__link" href="">Возможности</a></li>
+                            <li class="menu__item"><a data-goto=".form" class="menu__link" href="">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header__right">
+                <div class="header__phone">
+                    <img src="images/header/phone.svg" alt="">
+                    <p class="header__number">+7 (495) 646-86-82</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <main>
+      <div class="firstscreen">
+        <div class="container">
+          <div class="firstscreen__body">
+            <div class="firstscreen__info">
+              <h1 class="firstscreen__title">Доставка интернет-заказов</h1>
+              <h2 class="firstscreen__subtitle">за один день</h2>
+              <p class="firstscreen__text">Доставляйте по Москве и Московской области,<br>а также в Санкт-Петербург,
+                Тулу, Орёл, Воронеж, Калугу, Тверь и Ярославль от 205 рублей</p>
+              <button type="button" class="firstscreen__button btn btn_white button-modal"><span>Отправить заявку</span></button>
+            </div>
+            <div class="firstscreen__map">
+              <img src="images/header/map.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="advantages">
+        <div class="container">
+          <div class="advantages__body swiper">
+            <div class="advantages__wrapper swiper-wrapper">
+              <div data-hash="slide-1" class="advantages__slide advantages__slide-1 swiper-slide">
+                <div class="advantages__bg">
+                  <img src="images/advantages/bg/1.svg" alt="">
+                </div>
+                <div class="advantages__column advantages__column-1">
+                  <div class="advantages__image advantages__image-1">
+                    <img src="images/advantages/1.png" alt="">
+                  </div>
+                  <div class="advantages__item">
+                    <div class="advantages__text">Ежедневный возврат наложенных платежей</div>
+                  </div>
+                </div>
+              </div>
+              <div data-hash="slide-2" class="advantages__slide advantages__slide-2 swiper-slide">
+                <div class="advantages__bg">
+                  <img src="images/advantages/bg/2.svg" alt="">
+                </div>
+                <div class="advantages__column advantages__column-2">
+                  <div class="advantages__image advantages__image-2">
+                    <img src="images/advantages/2.png" alt="">
+                  </div>
+                  <div class="advantages__item">
+                    <div class="advantages__text">Доставка по городам ЦФО на следующий день</div>
+                  </div>
+                </div>
+              </div>
+              <div data-hash="slide-3" class="advantages__slide advantages__slide-3 swiper-slide">
+                <div class="advantages__bg">
+                  <img src="images/advantages/bg/3.svg" alt="">
+                </div>
+                <div class="advantages__column advantages__column-3">
+                  <div class="advantages__image advantages__image-30">
+                    <img src="images/advantages/3.png" alt="">
+                  </div>
+                  <div class="advantages__image advantages__image-31">
+                    <img src="images/advantages/31.png" alt="">
+                  </div>
+                  <div class="advantages__item">
+                    <div class="advantages__text">Доставка из оффлайн-магазинов Ship From Store</div>
+                  </div>
+                </div>
+              </div>
+              <div data-hash="slide-4" class="advantages__slide advantages__slide-4 swiper-slide">
+                <div class="advantages__bg">
+                  <img src="images/advantages/bg/4.svg" alt="">
+                </div>
+                <div class="advantages__column advantages__column-4">
+                  <div class="advantages__image advantages__image-4">
+                    <img src="images/advantages/4.png" alt="">
+                  </div>
+                  <div class="advantages__item">
+                    <div class="advantages__logos">
+                      <div class="advantages__logos-row">
+                        <div class="advantages__logos-item">
+                          <img src="images/advantages/logos/1.png" alt="">
+                        </div>
+                        <div class="advantages__logos-item">
+                          <img src="images/advantages/logos/2.png" alt="">
+                        </div>
+                        <div class="advantages__logos-item">
+                          <img src="images/advantages/logos/3.png" alt="">
+                        </div>
+                      </div>
+                      <div class="advantages__logos-row">
+                        <div class="advantages__logos-item">
+                          <img src="images/advantages/logos/4.png" alt="">
+                        </div>
+                        <div class="advantages__logos-item">
+                          <img src="images/advantages/logos/5.png" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="advantages__text">Доставка по России через партнёров</div>
+                  </div>
+                </div>
+                ...
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="statistics">
+        <div class="container">
+          <div class="statistics__body">
+            <div class="statistics__about">
+              <h2 class="statistics__title">Dalli — это...</h2>
+              <p class="statistics__para">Dalli — служба доставки для интернет-магазинов и омниритейла.</p>
+              <p class="statistics__para">Основные принципы компании — безукоризненное качество и безупречный
+                сервис.</p>
+            </div>
+            <div class="statistics__indicators">
+              <div class="statistics__ellipse"></div>
+              <div class="statistics__indicator">
+                <div class="statistics__name">Качество КС</div>
+                <div class="statistics__number">98,5%</div>
+              </div>
+              <div class="statistics__indicator">
+                <div class="statistics__name">Доставляемость</div>
+                <div class="statistics__number">98%</div>
+              </div>
+              <div class="statistics__indicator">
+                <div class="statistics__name">ONТIME</div>
+                <div class="statistics__number">96,7%</div>
+              </div>
+              <div class="statistics__indicator">
+                <div class="statistics__name">Выкуп</div>
+                <div class="statistics__number">96%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tariffs">
+        <div class="container">
+          <div class="tariffs__title">Тарифы доставки</div>
+          <div class="tariffs__subtitle">Цена на доставку зависит от режима, количества доставок в месяц и веса</div>
+          <div class="tariffs__swiper swiper">
+            <div class="tariffs__swiper-wrapper swiper-wrapper">
+              <div data-hash="tariff-1" class="tariffs__swiper-slide swiper-slide">
+                <div class="tariffs__swiper-title">Доставка по Москве в режиме Same Day</div>
+                <div data-spollers="849,max" data-one-spoller class="tariffs__body">
+                  <div class="tariffs__column">
+                    <button tabindex="-1" data-spoller class="tariffs__quantity _active">От 200 шт/мес</button>
+                    <div class="tariffs__prices">
+                      <div class="tariffs__prices-body">
+                        <ul class="tariffs__weight-list">
+                        <li class="tariffs__weight-item">До 1 кг</li>
+                        <li class="tariffs__weight-item">До 3 кг</li>
+                        <li class="tariffs__weight-item">До 5 кг</li>
+                        <li class="tariffs__weight-item">До 10 кг</li>
+                        <li class="tariffs__weight-item">До 15 кг</li>
+                        <li class="tariffs__weight-item">До 20 кг</li>
+                        <li class="tariffs__weight-item">До 25 кг</li>
+                      </ul>
+                        <ul class="tariffs__price-list">
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tariffs__column">
+                    <button tabindex="-1" data-spoller class="tariffs__quantity">От 500 шт/мес</button>
+                    <div class="tariffs__prices">
+                      <div class="tariffs__prices-body">
+                        <ul class="tariffs__weight-list">
+                          <li class="tariffs__weight-item">До 1 кг</li>
+                          <li class="tariffs__weight-item">До 3 кг</li>
+                          <li class="tariffs__weight-item">До 5 кг</li>
+                          <li class="tariffs__weight-item">До 10 кг</li>
+                          <li class="tariffs__weight-item">До 15 кг</li>
+                          <li class="tariffs__weight-item">До 20 кг</li>
+                          <li class="tariffs__weight-item">До 25 кг</li>
+                        </ul>
+                        <ul class="tariffs__price-list">
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tariffs__column">
+                    <button tabindex="-1" data-spoller class="tariffs__quantity">До 1500 шт/мес</button>
+                    <div class="tariffs__prices">
+                      <div class="tariffs__prices-body">
+                        <ul class="tariffs__weight-list">
+                          <li class="tariffs__weight-item">До 1 кг</li>
+                          <li class="tariffs__weight-item">До 3 кг</li>
+                          <li class="tariffs__weight-item">До 5 кг</li>
+                          <li class="tariffs__weight-item">До 10 кг</li>
+                          <li class="tariffs__weight-item">До 15 кг</li>
+                          <li class="tariffs__weight-item">До 20 кг</li>
+                          <li class="tariffs__weight-item">До 25 кг</li>
+                        </ul>
+                        <ul class="tariffs__price-list">
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tariffs__column">
+                    <button tabindex="-1" data-spoller class="tariffs__quantity">От 1500 шт/мес</button>
+                    <div class="tariffs__prices">
+                      <div class="tariffs__prices-body">
+                        <ul class="tariffs__weight-list">
+                          <li class="tariffs__weight-item">До 1 кг</li>
+                          <li class="tariffs__weight-item">До 3 кг</li>
+                          <li class="tariffs__weight-item">До 5 кг</li>
+                          <li class="tariffs__weight-item">До 10 кг</li>
+                          <li class="tariffs__weight-item">До 15 кг</li>
+                          <li class="tariffs__weight-item">До 20 кг</li>
+                          <li class="tariffs__weight-item">До 25 кг</li>
+                        </ul>
+                        <ul class="tariffs__price-list">
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-hash="tariff-2" class="tariffs__swiper-slide swiper-slide">
+                <div class="tariffs__swiper-title">Доставка по Москве и МО в режиме Next Day</div>
+                <div data-spollers="849,max" data-one-spoller class="tariffs__body">
+                  <div class="tariffs__column">
+                    <button tabindex="-1" data-spoller class="tariffs__quantity _active">От 200 шт/мес</button>
+                    <div class="tariffs__prices">
+                      <div class="tariffs__prices-body">
+                        <ul class="tariffs__weight-list">
+                          <li class="tariffs__weight-item">До 1 кг</li>
+                          <li class="tariffs__weight-item">До 3 кг</li>
+                          <li class="tariffs__weight-item">До 5 кг</li>
+                          <li class="tariffs__weight-item">До 10 кг</li>
+                          <li class="tariffs__weight-item">До 15 кг</li>
+                          <li class="tariffs__weight-item">До 20 кг</li>
+                          <li class="tariffs__weight-item">До 25 кг</li>
+                        </ul>
+                        <ul class="tariffs__price-list">
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tariffs__column">
+                    <button tabindex="-1" data-spoller class="tariffs__quantity">От 500 шт/мес</button>
+                    <div class="tariffs__prices">
+                      <div class="tariffs__prices-body">
+                        <ul class="tariffs__weight-list">
+                          <li class="tariffs__weight-item">До 1 кг</li>
+                          <li class="tariffs__weight-item">До 3 кг</li>
+                          <li class="tariffs__weight-item">До 5 кг</li>
+                          <li class="tariffs__weight-item">До 10 кг</li>
+                          <li class="tariffs__weight-item">До 15 кг</li>
+                          <li class="tariffs__weight-item">До 20 кг</li>
+                          <li class="tariffs__weight-item">До 25 кг</li>
+                        </ul>
+                        <ul class="tariffs__price-list">
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tariffs__column">
+                    <button tabindex="-1" data-spoller class="tariffs__quantity">До 1500 шт/мес</button>
+                    <div class="tariffs__prices">
+                      <div class="tariffs__prices-body">
+                        <ul class="tariffs__weight-list">
+                          <li class="tariffs__weight-item">До 1 кг</li>
+                          <li class="tariffs__weight-item">До 3 кг</li>
+                          <li class="tariffs__weight-item">До 5 кг</li>
+                          <li class="tariffs__weight-item">До 10 кг</li>
+                          <li class="tariffs__weight-item">До 15 кг</li>
+                          <li class="tariffs__weight-item">До 20 кг</li>
+                          <li class="tariffs__weight-item">До 25 кг</li>
+                        </ul>
+                        <ul class="tariffs__price-list">
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tariffs__column">
+                    <button tabindex="-1" data-spoller class="tariffs__quantity">От 1500 шт/мес</button>
+                    <div class="tariffs__prices">
+                      <div class="tariffs__prices-body">
+                        <ul class="tariffs__weight-list">
+                          <li class="tariffs__weight-item">До 1 кг</li>
+                          <li class="tariffs__weight-item">До 3 кг</li>
+                          <li class="tariffs__weight-item">До 5 кг</li>
+                          <li class="tariffs__weight-item">До 10 кг</li>
+                          <li class="tariffs__weight-item">До 15 кг</li>
+                          <li class="tariffs__weight-item">До 20 кг</li>
+                          <li class="tariffs__weight-item">До 25 кг</li>
+                        </ul>
+                        <ul class="tariffs__price-list">
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-hash="tariff-3" class="tariffs__swiper-slide swiper-slide">
+                <div class="tariffs__swiper-title">Доставка из Москвы в города ЦФО в режиме Next Day</div>
+                <div data-spollers="849,max" data-one-spoller class="tariffs__body">
+                  <div class="tariffs__column">
+                    <button tabindex="-1" data-spoller class="tariffs__quantity _active">От 200 шт/мес</button>
+                    <div class="tariffs__prices">
+                      <div class="tariffs__prices-body">
+                        <ul class="tariffs__weight-list">
+                          <li class="tariffs__weight-item">До 1 кг</li>
+                          <li class="tariffs__weight-item">До 3 кг</li>
+                          <li class="tariffs__weight-item">До 5 кг</li>
+                          <li class="tariffs__weight-item">До 10 кг</li>
+                          <li class="tariffs__weight-item">До 15 кг</li>
+                          <li class="tariffs__weight-item">До 20 кг</li>
+                          <li class="tariffs__weight-item">До 25 кг</li>
+                        </ul>
+                        <ul class="tariffs__price-list">
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tariffs__column">
+                    <button tabindex="-1" data-spoller class="tariffs__quantity">От 500 шт/мес</button>
+                    <div class="tariffs__prices">
+                      <div class="tariffs__prices-body">
+                        <ul class="tariffs__weight-list">
+                          <li class="tariffs__weight-item">До 1 кг</li>
+                          <li class="tariffs__weight-item">До 3 кг</li>
+                          <li class="tariffs__weight-item">До 5 кг</li>
+                          <li class="tariffs__weight-item">До 10 кг</li>
+                          <li class="tariffs__weight-item">До 15 кг</li>
+                          <li class="tariffs__weight-item">До 20 кг</li>
+                          <li class="tariffs__weight-item">До 25 кг</li>
+                        </ul>
+                        <ul class="tariffs__price-list">
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tariffs__column">
+                    <button tabindex="-1" data-spoller class="tariffs__quantity">До 1500 шт/мес</button>
+                    <div class="tariffs__prices">
+                      <div class="tariffs__prices-body">
+                        <ul class="tariffs__weight-list">
+                          <li class="tariffs__weight-item">До 1 кг</li>
+                          <li class="tariffs__weight-item">До 3 кг</li>
+                          <li class="tariffs__weight-item">До 5 кг</li>
+                          <li class="tariffs__weight-item">До 10 кг</li>
+                          <li class="tariffs__weight-item">До 15 кг</li>
+                          <li class="tariffs__weight-item">До 20 кг</li>
+                          <li class="tariffs__weight-item">До 25 кг</li>
+                        </ul>
+                        <ul class="tariffs__price-list">
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tariffs__column">
+                    <button tabindex="-1" data-spoller class="tariffs__quantity">От 1500 шт/мес</button>
+                    <div class="tariffs__prices">
+                      <div class="tariffs__prices-body">
+                        <ul class="tariffs__weight-list">
+                          <li class="tariffs__weight-item">До 1 кг</li>
+                          <li class="tariffs__weight-item">До 3 кг</li>
+                          <li class="tariffs__weight-item">До 5 кг</li>
+                          <li class="tariffs__weight-item">До 10 кг</li>
+                          <li class="tariffs__weight-item">До 15 кг</li>
+                          <li class="tariffs__weight-item">До 20 кг</li>
+                          <li class="tariffs__weight-item">До 25 кг</li>
+                        </ul>
+                        <ul class="tariffs__price-list">
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                          <li class="tariffs__price-item">270</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <button type="button" class="tariffs__button btn btn_gradient button-modal"><span>Отправить заявку</span></button>
+        </div>
+      </div>
+      <div class="more-advantages">
+        <div class="container">
+          <h2 class="more-advantages__title">Больше преимуществ</h2>
+          <div class="more-advantages__swiper swiper">
+            <div class="more-advantages__swiper-wrapper swiper-wrapper">
+              <div class="more-advantages__slide swiper-slide">
+                <picture>
+                  <source srcset="images/more-advantages/pc/1.png" type="image/png" media="(min-width:850px)">
+                  <source srcset="images/more-advantages/mobile/1.png" type="image/png" media="(max-width:849px)">
+                  <img src="images/more-advantages/pc/1.png" alt="">
+                </picture>
+              </div>
+              <div class="more-advantages__slide swiper-slide">
+                <picture>
+                  <source srcset="images/more-advantages/pc/2.png" type="image/png" media="(min-width:850px)">
+                  <source srcset="images/more-advantages/mobile/2.png" type="image/png" media="(max-width:849px)">
+                  <img src="images/more-advantages/pc/2.png" alt="">
+                </picture>
+              </div>
+              <div class="more-advantages__slide swiper-slide">
+                <picture>
+                  <source srcset="images/more-advantages/pc/3.png" type="image/png" media="(min-width:850px)">
+                  <source srcset="images/more-advantages/mobile/3.png" type="image/png" media="(max-width:849px)">
+                  <img src="images/more-advantages/pc/3.png" alt="">
+                </picture>
+              </div>
+              <div class="more-advantages__slide swiper-slide">
+                <picture>
+                  <source srcset="images/more-advantages/pc/4.png" type="image/png" media="(min-width:850px)">
+                  <source srcset="images/more-advantages/mobile/4.png" type="image/png" media="(max-width:849px)">
+                  <img src="images/more-advantages/pc/4.png" alt="">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="connection">
+        <div class="connection__bg">
+          <picture>
+            <source srcset="images/connection/bg.jpg" type="image/jpeg" media="(min-width:850px)">
+            <source srcset="images/connection/bg-mobile.jpg" type="image/jpeg" media="(max-width:849px)">
+            <img src="images/connection/bg.jpg" alt="">
+          </picture>
+        </div>
+        <div class="container">
+          <div class="connection__body">
+            <div class="connection__title">
+              <h2 class="connection__title-body">Легко подключиться и интегрироваться</h2>
+            </div>
+            <div class="connection__comfort">
+              <div class="connection__comfort-body">
+                <div class="connection__account card">
+                  <h3 class="connection__card-title">Личный кабинет клиента</h3>
+                  <div class="connection__icon">
+                    <img src="images/connection/icons/1.png" alt="">
+                  </div>
+                </div>
+                <div class="connection__api card">
+                  <h3 class="connection__card-title">API</h3>
+                  <div class="connection__icon">
+                    <img src="images/connection/icons/2.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="connection__modules">
+              <div class="connection__modules-body card">
+                <h3 class="connection__card-title">Готовые модули</h3>
+                <div class="connection__row">
+                  <div class="connection__card-logo">
+                    <svg width="195" height="35" viewBox="0 0 195 35" xmlns="http://www.w3.org/2000/svg"><g fill="none"><path d="M132.5 25.4h17.6v-3.9h-11.6c1.6-6.4 11.4-7.8 11.4-14.9 0-3.8-2.6-6.6-8.1-6.6-3.4 0-6.4 1-8.4 2l1.2 3.6c1.8-.9 3.9-1.7 6.5-1.7 2 0 3.9.9 3.9 3.2 0 5.2-11.5 5.6-12.5 18.3zm18.1-6.2h11.3v6.2h4.5v-6.2h3.8v-3.8h-3.8V0h-3.3l-12.5 16.2v3zm5.1-3.6 6.4-8.6c0 .7-.2 2.9-.2 4.9v3.6h-3c-.9 0-2.6.1-3.2.1z" fill="#005893"></path><path d="M4.7 21.6v-7.9h1.9c1.7 0 3.1.2 4.1.8 1 .6 1.6 1.6 1.6 3.2 0 2.7-1.6 3.9-5.4 3.9H4.7zM.1 25.4h6.7c7.5 0 10.2-3.3 10.2-7.9 0-3.1-1.3-5.2-3.6-6.4-1.8-1-4.1-1.3-6.9-1.3H4.7v-6h10.1L16 .1H0v25.3h.1zm20 0h4.4l5.7-8.2c1.1-1.5 1.9-3 2.4-3.8h.1c-.1 1.1-.2 2.5-.2 3.9v8H37v-18h-4.4l-5.7 8.2c-1 1.5-1.9 3-2.4 3.8h-.1c.1-1.1.2-2.5.2-3.9v-8h-4.5v18zm24.6 0h4.6V11.1h5.4l1.2-3.8H39.2v3.8h5.5v14.3zm12.8 9.1H62v-9.1c.9.3 1.8.4 2.8.4 5.7 0 9.4-3.9 9.4-9.5 0-5.8-3.4-9.5-9.9-9.5-2.5 0-4.9.5-6.9 1.1v26.6h.1zm4.5-13V10.9c.7-.2 1.3-.3 2.1-.3 3.3 0 5.4 1.8 5.4 5.7 0 3.5-1.7 5.7-5.1 5.7-.9 0-1.6-.2-2.4-.5zm14.9 3.9h4.4l5.7-8.2c1.1-1.5 1.9-3 2.4-3.8h.1c-.1 1.1-.2 2.5-.2 3.9v8h4.5v-18h-4.4l-5.7 8.2c-1 1.5-1.9 3-2.4 3.8h-.1c.1-1.1.2-2.5.2-3.9v-8h-4.5v18zm20.5 0h4.6v-7.5h2.7c.5 0 1 .5 1.6 1.7l2.3 5.8h4.9l-3.3-6.9c-.6-1.2-1.2-1.9-2.1-2.2v-.1c1.5-.9 1.7-3.5 2.6-4.8.3-.4.7-.6 1.3-.6.3 0 .7 0 1 .2V7.1c-.5-.2-1.4-.3-1.9-.3-1.6 0-2.6.6-3.3 1.6-1.5 2.2-1.5 6-3.7 6H102V7.3h-4.6v18.1zm26.3.4c2.5 0 4.8-.8 6.2-1.8l-1.3-3.1c-1.3.7-2.5 1.2-4.2 1.2-3.1 0-5.1-2-5.1-5.7 0-3.3 2-5.9 5.4-5.9 1.8 0 3.1.5 4.4 1.4V8c-1-.6-2.6-1.2-4.9-1.2-5.4 0-9.6 4-9.6 9.7 0 5.2 3.2 9.3 9.1 9.3z" fill="#0BBBEF"></path><path d="M185.1 19.2c4.9 0 8.9-4 8.9-8.9s-4-8.9-8.9-8.9-8.9 4-8.9 8.9c.1 4.9 4 8.9 8.9 8.9z" stroke-width="1.769" stroke="#005893"></path><path d="M190.7 10.3h-4.9V5.4h-1.3v6.2h6.2v-1.3z" fill="#005893"></path></g></svg>
+                  </div>
+                  <div class="connection__card-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="148" height="45" viewBox="0 0 148 45" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M34.769 20.5798C34.0965 18.5624 33.8644 16.4242 34.0883 14.3094C34.3089 12.1944 34.9808 10.1513 36.0586 8.31819C39.9189 1.75187 48.2188 -1.07679 56.0197 0.948499L58.286 4.36488L54.6583 7.22306C47.204 5.2316 39.5088 8.06869 36.2996 13.5103C35.056 15.6462 34.5203 18.1209 34.769 20.5798V20.5798Z" fill="#F35C22"/>
+                      <path d="M0.334961 14.4869C0.347003 13.5358 0.727435 12.6264 1.39623 11.9501C2.06819 11.2703 2.9776 10.8778 3.93312 10.855C4.89862 10.8657 5.82147 11.2542 6.50382 11.9374C7.18697 12.6197 7.57557 13.5426 7.58625 14.5081C7.56745 15.4628 7.17769 16.3727 6.49959 17.045C5.81478 17.7182 4.89341 18.0962 3.93312 18.0978C2.98085 18.0873 2.07042 17.7049 1.39623 17.0323C0.723135 16.3553 0.342135 15.4416 0.334961 14.4869V14.4869ZM1.01992 20.8292H6.90971V43.6612H1.01992V20.8292Z" fill="#2B2D33"/>
+                      <path d="M33.4581 29.6405V43.6611H27.5641V30.372C27.5641 27.2685 25.6952 25.6703 23.0442 25.6703C20.169 25.6703 18.0211 27.3615 18.0211 31.3318V43.6611H12.1313V20.829H18.0211V23.3659C19.3911 21.3111 21.7673 20.1694 24.8242 20.1694C29.695 20.1906 33.4581 23.5689 33.4581 29.6405Z" fill="#2B2D33"/>
+                      <path d="M37.0015 36.4013L42.3924 33.2471C43.534 36.2068 45.7749 38.1349 49.7409 38.1349C53.5462 38.1349 54.8569 36.5366 54.8569 34.7524C54.8569 32.3761 52.7091 31.4629 47.9608 30.1014C43.0773 28.685 38.3249 26.63 38.3249 20.5584C38.3249 14.4868 43.3479 11.062 48.8276 11.062C54.0789 11.062 58.0999 13.7553 60.2436 18.2499L54.9499 21.311C53.8083 18.8883 52.0706 17.2013 48.8276 17.2013C46.1808 17.2013 44.6291 18.5712 44.6291 20.3978C44.6291 22.3596 45.8594 23.4125 50.7007 24.8712C55.7745 26.4694 61.1611 28.1607 61.1611 34.6889C61.1611 40.6718 56.3621 44.3248 49.559 44.3248C43.0308 44.2995 38.7392 41.158 37.0015 36.4013Z" fill="#2B2D33"/>
+                      <path d="M88.7414 20.8289V43.6609H82.8474V40.9676C81.2068 43.0225 78.7376 44.2994 75.4058 44.2994C69.3299 44.2994 64.3069 39.048 64.3069 32.2449C64.3069 25.4418 69.3299 20.1904 75.4058 20.1904C78.7376 20.1904 81.2068 21.4589 82.8474 23.5222V20.8289H88.7414ZM82.8474 32.2449C82.8474 28.41 80.154 25.8054 76.5051 25.8054C72.8562 25.8054 70.2052 28.41 70.2052 32.2449C70.2052 36.0798 72.8985 38.6844 76.5051 38.6844C80.1117 38.6844 82.8474 36.0841 82.8474 32.2449Z" fill="#2B2D33"/>
+                      <path d="M93.9207 10.3267H99.8401V43.6614H93.9207V10.3267Z" fill="#2B2D33"/>
+                      <path d="M116.503 38.955C118.787 38.955 120.613 37.9994 121.615 36.6718L126.368 39.4116C124.22 42.5193 120.795 44.2994 116.41 44.2994C108.74 44.2994 103.899 39.048 103.899 32.2449C103.899 25.4418 108.783 20.1904 115.954 20.1904C122.719 20.1904 127.509 25.5306 127.509 32.2449C127.505 33.0563 127.429 33.8656 127.281 34.6634H110.064C110.884 37.6781 113.37 38.955 116.503 38.955ZM121.615 30.0758C120.888 26.7906 118.419 25.4629 115.954 25.4629C112.804 25.4629 110.656 27.1542 109.971 30.0758H121.615Z" fill="#2B2D33"/>
+                      <path d="M147.783 36.9933C147.783 41.9233 143.491 44.2995 138.604 44.2995C134.037 44.2995 130.659 42.3799 129.014 38.8663L134.13 35.9869C134.769 37.86 136.32 38.9467 138.604 38.9467C140.477 38.9467 141.754 38.3082 141.754 36.9848C141.754 33.653 129.974 35.4796 129.974 27.4419C129.974 22.7909 133.944 20.1821 138.65 20.1821C142.35 20.1821 145.546 21.8734 147.326 25.0192L142.303 27.759C141.995 27.0519 141.482 26.4527 140.832 26.0381C140.181 25.6235 139.421 25.413 138.65 25.4335C137.187 25.4335 135.999 26.072 135.999 27.3024C135.999 30.6933 147.783 28.5919 147.783 36.9933Z" fill="#2B2D33"/>
+                    </svg>
+                  </div>
+                  <div class="connection__card-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 678.82 122.3"> <defs> <style>.cls-1{fill:#0068ff;}</style> </defs> <title>RetailCRM horiz</title> <path class="cls-1" d="M139,102.44c7.49,0,13.66-2.77,17.57-6.8a3,3,0,0,1,3.6-.47L173.8,103a2,2,0,0,1,.58,3c-8,10.41-20.28,16.33-35.7,16.33-28.56,0-46.58-19.55-46.58-44.88S110.29,32.57,137,32.57c25.16,0,43,19.89,43,44.88a48.38,48.38,0,0,1-.57,7.3,2,2,0,0,1-2,1.71h-61a1,1,0,0,0-.95,1.34C118.87,98.06,127.93,102.44,139,102.44Zm17.76-33a1,1,0,0,0,1-1.24c-3-11.33-11.91-15.93-20.78-15.93-11.27,0-19.09,5.81-21.95,15.92a1,1,0,0,0,1,1.25Z"/> <path class="cls-1" d="M217.1,56V93c0,8.66,5.89,9.3,17.11,8.78a2,2,0,0,1,2.1,2v16a2,2,0,0,1-1.8,2c-29.38,2.85-39.34-6.25-39.34-28.75V56H182.38a2,2,0,0,1-2-2V37a2,2,0,0,1,2-2h12.79V20a3,3,0,0,1,2.13-2.87l17.22-5.21a2,2,0,0,1,2.58,1.91V35h17.21a2,2,0,0,1,2,2V54a2,2,0,0,1-2,2Z"/> <path class="cls-1" d="M327.62,37v81a2,2,0,0,1-2,2H307.69a2,2,0,0,1-2-2v-8c-6.12,7.65-15.3,12.41-27.71,12.41-22.61,0-41.31-19.55-41.31-44.88S255.37,32.57,278,32.57c12.41,0,21.59,4.76,27.71,12.41V37a2,2,0,0,1,2-2h17.93A2,2,0,0,1,327.62,37Zm-21.93,40.5c0-14.28-10-24-23.63-24-13.43,0-23.46,9.69-23.46,24s10,24,23.46,24C295.66,101.42,305.69,91.73,305.69,77.45Z"/> <path class="cls-1" d="M335.25,13.8a13.72,13.72,0,1,1,27.43,0,13.72,13.72,0,0,1-27.43,0ZM340,35h17.94a2,2,0,0,1,2,2v81a2,2,0,0,1-2,2H340a2,2,0,0,1-2-2v-81A2,2,0,0,1,340,35Z"/> <path class="cls-1" d="M372.13,0h17.92a2,2,0,0,1,2,1.94V118a2,2,0,0,1-2,1.94H372.13a2,2,0,0,1-2-1.94V1.94A2,2,0,0,1,372.13,0Z"/> <path d="M402.25,77.45c0-25.33,19-44.88,44.88-44.88,15.89,0,29.78,8,37.07,20.15a2,2,0,0,1-.7,2.78L468.92,64a3,3,0,0,1-4-.89c-3.79-5.56-10.36-9-18-9-13.09,0-22.78,9.69-22.78,23.29,0,13.43,9.69,23.12,22.78,23.12,7.79,0,14.39-3.3,18.17-8.85a3,3,0,0,1,3.95-.9l14.71,8.41a2,2,0,0,1,.7,2.81,43.66,43.66,0,0,1-37.37,20.3C421.29,122.33,402.25,102.78,402.25,77.45Z"/> <path d="M542.48,35.32V55.56a2,2,0,0,1-2.11,2c-11-.52-23.73,5-23.73,21.76V118a2,2,0,0,1-2,2H496.71a2,2,0,0,1-2-2V37a2,2,0,0,1,2-2h17.93a2,2,0,0,1,2,2V49.57c4.13-10.8,13.75-15.66,23.73-16.26A2,2,0,0,1,542.48,35.32Z"/> <path d="M678.82,67.59V118a2,2,0,0,1-2,2H658.89a2,2,0,0,1-2-2V69.12c0-10-5.1-16.15-14.28-16.15-9.69,0-15.81,6.46-15.81,19.21V118a2,2,0,0,1-2,2H606.87a2,2,0,0,1-2-2V69.12c0-10-5.1-16.15-14.28-16.15-9.35,0-16,6.46-16,19.21V118a2,2,0,0,1-2,2H554.68a2,2,0,0,1-2-2V37a2,2,0,0,1,2-2h17.93a2,2,0,0,1,2,2v7c4.76-7.14,12.75-11.39,23.63-11.39,10.54,0,18.36,4.42,23.12,12.24,5.27-7.65,13.77-12.24,25.33-12.24C666.07,32.57,678.82,46.34,678.82,67.59Z"/> <path class="cls-1" d="M88.09,32.4H15.57A15.6,15.6,0,0,0,0,48H0v72.51a2,2,0,0,0,2,2H20.08a2,2,0,0,0,2-2V81A20,20,0,0,0,18.4,69.45L11.07,59.09,71.19,119.2a2,2,0,0,0,2.85,0L86.8,106.43a2,2,0,0,0,0-2.85L26.74,43.53,37,50.8a20,20,0,0,0,11.55,3.68H88.09a2,2,0,0,0,2-2V34.4A2,2,0,0,0,88.09,32.4Z"/> <rect class="cls-1" width="90.05" height="22.2" rx="2" ry="2"/> </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="connection__services">
+              <div class="connection__services-body card">
+                <h3 class="connection__card-title">Сервисы и агрегаторы</h3>
+                <div class="connection__row">
+                  <div class="connection__card-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="128.124mm" height="73.0171mm" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 12640.93 7203.96"> <g id="Слой_x0020_1"> <metadata id="CorelCorpID_0Corel-Layer"/> <path fill="#0086D8" fill-rule="nonzero" d="M1728.09 0l6.26 0 6.53 0.52 6.26 0.52 6.52 1.05 6.26 1.05 6.26 1.57 6.26 1.56 6.26 1.84 6.01 2.08 6 2.35 6.01 2.87 6 2.87 5.74 2.87 5.74 3.39 5.75 3.66 5.48 3.92 5.22 4.17 5.23 4.44 5.22 4.44 7.04 6.79 4.96 4.95 4.7 4.96 4.44 4.96 4.17 5.22 3.92 5.48 0.26 0 1521.88 1619.25 4.7 4.95 4.44 5.22 3.91 5.49 3.92 5.49 3.66 5.48 3.39 5.74 3.13 6.01 2.87 5.74 2.61 6.01 2.35 6 2.09 6.26 1.83 6.26 1.83 6.01 1.3 6.52 1.05 6.26 1.05 6.26 0.52 6.53 0.52 6.26 0.26 6.52 -0.26 6.26 0 4.17 0.52 3.14 0.78 6.79 0.52 6.79 0.52 6.79 0 6.78 -0.26 7.05 -0.52 7.04 -0.79 6.79 -1.05 7.05 -470.65 2712.47 -1.3 6.79 -1.57 7.04 -1.83 6.53 -2.09 6.52 432.55 460.22 4.7 4.96 4.44 5.22 3.91 5.49 3.92 5.48 3.66 5.49 3.39 5.74 3.13 6.01 2.87 5.74 2.61 6 2.35 6.01 2.09 6.26 1.83 6.26 1.83 6.26 1.3 6.26 1.05 6.26 1.05 6.26 0.52 6.52 0.52 6.26 0.26 6.53 -0.26 6.26 -0.27 6.52 -0.52 6.26 -0.78 6.53 -1.05 6.26 -1.3 6.26 -1.57 6.26 -1.83 6.26 -2.09 6 -0.78 2.35 -318.74 1837.48 -1.3 6.26 -1.57 6.26 -1.56 6 -2.09 6.01 -2.35 5.74 -2.35 5.74 -2.87 5.48 -2.87 5.23 -3.14 5.22 -3.39 4.96 -3.65 4.95 -3.92 4.7 -3.92 4.44 -4.17 4.44 -4.44 3.92 -4.44 4.17 -4.7 3.66 -4.7 3.65 -4.96 3.14 -5.22 3.13 -5.23 2.87 -5.22 2.87 -5.48 2.35 -5.74 2.35 -5.49 1.84 -6.01 1.83 -5.74 1.57 -6 1.3 -6.01 0.78 -6 0.79 -6.26 0.52 -6.26 0.26 -6.26 -0.26 -6.26 -0.27 -6.26 -0.78 -6.26 -0.79 -5.74 -1.04 -4.96 0.78 -6.53 1.05 -6.52 0.52 -6.52 0.52 -6.79 0.26 -6.53 -0.26 -6.52 -0.27 -6.53 -0.52 -6.52 -0.78 -6.53 -1.3 -6.52 -1.31 -6.53 -1.57 -6.26 -1.83 -6.26 -2.08 -6.26 -2.36 -6.26 -2.6 -6 -2.61 -6.01 -3.13 -6 -3.39 -5.74 -3.66 -5.74 -3.65 -5.49 -4.17 -5.22 -4.18 -5.49 -4.7 -4.95 -4.7 -4.96 -5.22 -1061.4 -1129.01 -1061.39 1129.01 -4.96 5.22 -4.96 4.7 -5.22 4.7 -5.49 4.18 -5.48 4.17 -5.74 3.65 -5.74 3.66 -6.01 3.39 -6 3.13 -6.01 2.61 -6.26 2.6 -6.01 2.36 -6.52 2.08 -6.26 1.83 -6.52 1.57 -6.53 1.31 -6.52 1.3 -6.53 0.78 -6.52 0.52 -6.53 0.27 -6.52 0.26 -6.79 -0.26 -6.53 -0.52 -6.52 -0.52 -6.53 -1.05 -2.08 -0.27 -2.87 0.52 -6.53 0.79 -6.26 0.78 -6.26 0.27 -6.26 0.26 -6.26 -0.26 -6 -0.52 -6.26 -0.79 -6.01 -0.78 -6 -1.3 -5.74 -1.57 -5.74 -1.83 -5.75 -1.84 -5.74 -2.35 -5.22 -2.35 -5.48 -2.87 -5.23 -2.87 -5.22 -3.13 -4.95 -3.14 -4.71 -3.65 -4.7 -3.66 -4.44 -4.17 -4.44 -3.92 -4.17 -4.44 -3.92 -4.44 -3.65 -4.7 -3.66 -4.95 -3.39 -4.96 -3.13 -5.22 -3.14 -5.23 -2.6 -5.48 -2.61 -5.74 -2.35 -5.74 -1.83 -6.01 -1.83 -6 -1.57 -6.26 -1.3 -6.26 -323.95 -1868.28 -1.05 -6.26 -0.78 -6.26 -0.27 -6.26 0 -6.26 0 -1.05 0 -2.08 0 -6.53 0.52 -6.26 0.52 -6.52 1.05 -6.26 1.05 -6.26 1.56 -6.26 1.57 -6.26 1.83 -6.26 2.09 -6.26 2.35 -6.01 2.87 -6 2.87 -5.74 2.87 -6.01 3.39 -5.74 3.66 -5.49 3.92 -5.48 4.17 -5.49 4.44 -5.22 4.44 -4.96 424.18 -451.08 -1.05 -2.6 -2.6 -6.26 -2.09 -6.79 -1.83 -6.53 -1.57 -7.04 -1.3 -6.79 -470.65 -2712.47 -1.05 -7.05 -0.79 -6.79 -0.52 -7.04 -0.26 -7.05 0 -6.78 0.52 -6.79 0.52 -6.79 0.78 -6.79 1.31 -6.53 1.3 -6.52 1.57 -6.53 1.83 -6.52 2.35 -6.26 2.35 -6.01 2.61 -6.26 2.6 -6 1.57 -2.87 1.3 -4.44 1.83 -6.26 2.09 -6.26 2.35 -6 2.87 -6.01 2.87 -5.74 2.87 -6.01 3.39 -5.74 3.66 -5.48 3.92 -5.49 4.17 -5.49 4.44 -5.22 4.44 -4.95 1522.13 -1619.25 0 0 3.92 -5.48 4.17 -5.22 4.44 -4.96 4.7 -4.96 4.96 -4.95 7.04 -6.79 5.23 -4.44 5.22 -4.44 5.48 -4.17 5.49 -3.92 5.49 -3.66 5.74 -3.39 5.74 -2.87 6 -2.87 6.01 -2.87 6 -2.35 6.26 -2.08 6.01 -1.84 6.26 -1.56 6.52 -1.57 6.26 -1.05 6.26 -1.05 6.53 -0.52 6.26 -0.52 6.52 0 1.84 0 2.08 0zm1099.77 6695.45l251.39 -1448.78 -314.82 -334.92 -806.62 858.05 870.04 925.65zm-2207.37 -4.96l865.61 -920.69 -802.7 -853.61 -312.99 333.09 250.08 1441.2zm1101.34 -1171.55l806.88 -858.3 -802.7 -853.6 -806.63 858.04 802.44 853.86zm-947.32 -1201.57l807.14 -858.3 0 -0.27 3.92 -5.48 4.17 -5.23 4.44 -4.95 4.7 -4.96 4.96 -4.96 7.04 -6.79 5.23 -4.43 5.22 -4.44 5.48 -4.17 5.49 -3.92 5.49 -3.39 5.74 -3.39 5.74 -3.14 6 -2.87 6.01 -2.6 6 -2.61 6.26 -2.09 6.01 -1.83 6.26 -1.57 6.52 -1.56 6.26 -1.05 6.26 -0.79 6.53 -0.78 6.26 -0.52 6.52 0 1.84 0 2.08 0 6.26 0 6.53 0.52 6.26 0.78 6.52 0.79 6.26 1.05 6.26 1.56 6.26 1.57 6.26 1.83 6.01 2.09 6 2.61 6.01 2.6 6 2.87 5.74 3.14 5.74 3.39 5.75 3.39 5.48 3.92 5.22 4.17 5.23 4.44 5.22 4.43 7.04 6.79 4.96 4.96 4.7 4.96 4.44 4.95 4.17 5.23 3.92 5.48 0.26 0.27 796.7 847.33 421.85 -2430.82 -1363.15 -1449.82 -1373.08 1460.79 421.58 2430.82zm1017.28 -2836.48l34.2 3.66 33.94 5.22 33.15 6.53 32.89 7.57 32.1 9.14 31.85 10.44 31.06 11.75 30.55 12.79 29.76 14.1 29.24 15.4 28.19 16.45 27.93 17.49 26.89 18.53 26.11 19.58 25.06 20.62 24.54 21.67 23.5 22.71 22.7 23.49 21.67 24.28 20.63 25.32 19.57 26.11 18.54 26.89 17.48 27.67 16.45 28.45 15.4 29.23 14.1 29.76 12.79 30.55 11.75 31.06 10.44 31.85 8.88 32.11 7.83 32.88 6.52 33.16 5.22 33.93 3.66 34.2 2.08 34.46 0.79 34.98 -0.79 34.99 -2.08 34.72 -3.66 34.2 -5.22 33.67 -6.52 33.15 -7.83 32.89 -8.88 32.36 -10.44 31.59 -11.75 31.06 -12.79 30.55 -14.1 29.76 -15.4 29.24 -16.45 28.45 -17.48 27.66 -18.54 26.89 -19.57 26.11 -20.63 25.33 -21.67 24.27 -22.7 23.5 -23.5 22.7 -24.54 21.68 -25.06 20.62 -26.11 19.57 -26.89 18.54 -27.93 17.48 -28.19 16.45 -29.24 15.4 -29.76 14.1 -30.55 12.79 -31.06 11.75 -31.85 10.44 -32.1 9.14 -32.89 7.83 -33.15 6.26 -33.94 5.22 -34.2 3.66 -34.45 2.08 -34.99 0.79 -34.98 -0.79 -34.72 -2.08 -34.2 -3.66 -33.67 -5.22 -33.42 -6.26 -32.63 -7.83 -32.37 -9.14 -31.59 -10.44 -31.06 -11.75 -30.55 -12.79 -29.76 -14.1 -29.23 -15.4 -28.45 -16.45 -27.67 -17.48 -26.89 -18.54 -26.11 -19.57 -25.32 -20.62 -24.28 -21.68 -23.49 -22.7 -22.71 -23.5 -21.67 -24.27 -20.62 -25.33 -19.58 -26.11 -18.53 -26.89 -17.76 -27.66 -16.18 -28.45 -15.4 -29.24 -14.1 -29.76 -12.79 -30.55 -11.75 -31.06 -10.44 -31.59 -9.14 -32.36 -7.83 -32.89 -6.26 -33.15 -5.22 -33.67 -3.66 -34.2 -2.08 -34.72 -0.79 -34.99 0.79 -34.98 2.08 -34.46 3.66 -34.2 5.22 -33.93 6.26 -33.16 7.83 -32.88 9.14 -32.11 10.44 -31.85 11.75 -31.06 12.79 -30.55 14.1 -29.76 15.4 -29.23 16.18 -28.45 17.76 -27.67 18.53 -26.89 19.58 -26.11 20.62 -25.32 21.67 -24.28 22.71 -23.49 23.49 -22.71 24.28 -21.67 25.32 -20.62 26.11 -19.58 26.89 -18.53 27.67 -17.49 28.45 -16.45 29.23 -15.4 29.76 -14.1 30.55 -12.79 31.06 -11.75 31.59 -10.44 32.37 -9.14 32.63 -7.57 33.42 -6.53 33.67 -5.22 34.2 -3.66 34.72 -2.08 34.98 -0.79 34.99 0.79 34.45 2.08zm-137.57 347.97l-32.88 6.01 -32.11 8.61 -31.06 10.44 -30.28 12.8 -28.72 14.88 -27.93 16.45 -26.36 18.53 -25.06 20.36 -23.49 21.93 -21.93 23.75 -20.36 24.8 -18.53 26.63 -16.7 27.66 -14.62 28.98 -12.8 30.02 -10.69 31.06 -8.36 32.11 -6.01 32.89 -3.91 33.67 -1.31 34.45 1.31 34.46 3.91 33.67 6.01 32.89 8.36 32.1 10.69 31.06 12.8 30.02 14.62 28.98 16.7 27.93 18.53 26.36 20.36 25.06 21.93 23.5 23.49 21.92 25.06 20.36 26.36 18.53 27.93 16.71 28.72 14.61 30.28 12.8 31.06 10.7 32.11 8.35 32.88 6.01 33.68 3.92 34.45 1.05 34.46 -1.05 33.67 -3.92 32.88 -6.01 32.11 -8.35 31.06 -10.7 30.02 -12.8 28.98 -14.61 27.67 -16.71 26.62 -18.53 24.8 -20.36 23.76 -21.92 21.92 -23.5 20.1 -25.06 18.54 -26.36 16.7 -27.93 14.88 -28.98 12.8 -30.02 10.44 -31.06 8.61 -32.1 6.01 -32.89 3.65 -33.67 1.31 -34.46 -1.31 -34.45 -3.65 -33.67 -6.01 -32.89 -8.61 -32.11 -10.44 -31.06 -12.8 -30.02 -14.88 -28.98 -16.7 -27.66 -18.54 -26.63 -20.1 -24.8 -21.92 -23.75 -23.76 -21.93 -24.8 -20.36 -26.62 -18.53 -27.67 -16.45 -28.98 -14.88 -30.02 -12.8 -31.06 -10.44 -32.11 -8.61 -32.88 -6.01 -33.67 -3.65 -34.46 -1.3 -34.45 1.3 -33.68 3.65z"/> <g id="_105553195850592"> <path fill="#0086D8" fill-rule="nonzero" d="M5603.94 3944.09l-572.54 0 -99.89 324.04 -445.86 0 633.45 -1732.27 392.26 0 640.78 1732.27 -448.3 0 -99.89 -324.04zm-472.66 -321.6l372.77 0 -187.6 -601.78 -185.17 601.78z"/> <path id="_1" fill="#0086D8" fill-rule="nonzero" d="M7398.75 3634.68c0,199.78 -46.29,358.14 -136.44,477.53 -90.15,119.38 -211.96,180.28 -363.02,180.28 -119.38,0 -216.84,-43.85 -292.36,-129.13l0 599.36 -402.01 0 0 -1780.99 375.21 0 12.17 119.38c77.97,-97.46 177.86,-143.75 304.55,-143.75 158.37,0 280.19,58.48 367.9,175.42 90.15,116.94 134,277.75 134,482.4l0 19.5zm-402.01 -26.81c0,-226.59 -65.78,-341.09 -199.78,-341.09 -95.02,0 -158.37,34.11 -190.04,102.33l0 506.76c34.11,70.65 99.89,107.21 192.48,107.21 126.69,0 192.47,-109.64 197.34,-331.35l0 -43.85z"/> <path id="_2" fill="#0086D8" fill-rule="nonzero" d="M7998.1 4268.14l-402.01 0 0 -1286.4 402.01 0 0 1286.4zm-426.37 -1620.2c0,-56.03 19.5,-102.32 60.91,-138.88 41.42,-36.54 95.02,-56.03 160.8,-56.03 65.79,0 119.39,19.49 160.81,56.03 41.42,36.55 63.34,82.85 63.34,138.88 0,58.48 -21.92,104.77 -63.34,141.31 -41.42,36.54 -95.02,56.04 -160.81,56.04 -65.78,0 -119.38,-19.5 -160.8,-56.04 -41.42,-36.54 -60.91,-82.84 -60.91,-141.31z"/> <path fill="#0086D8" fill-rule="nonzero" d="M9286.52 3841.77c0,-95.02 -34.11,-170.55 -99.88,-226.59 -68.22,-56.04 -192.48,-109.63 -370.33,-160.8 -180.29,-48.73 -309.42,-104.77 -392.26,-163.24 -116.94,-85.27 -177.86,-194.91 -177.86,-331.34 0,-131.56 56.04,-241.2 165.68,-324.03 107.2,-82.85 248.51,-124.26 416.62,-124.26 114.51,0 219.27,21.93 309.42,68.22 90.15,43.85 160.8,104.76 211.96,185.17 48.73,77.96 73.09,168.11 73.09,265.56l-146.18 0c0,-119.38 -41.42,-214.4 -121.83,-285.05 -80.4,-73.09 -190.03,-107.21 -326.47,-107.21 -131.56,0 -236.33,29.24 -316.73,87.71 -77.96,58.48 -116.94,136.44 -116.94,231.46 0,87.71 34.11,160.8 104.77,214.4 70.65,56.04 185.16,104.77 341.09,148.62 153.49,41.42 272.87,85.27 353.28,131.56 77.96,46.29 138.87,99.88 180.28,163.24 38.99,63.35 60.91,138.88 60.91,224.15 0,136.44 -56.04,246.07 -163.24,328.91 -109.64,82.84 -253.38,124.25 -431.24,124.25 -124.25,0 -236.33,-21.92 -336.23,-65.78 -102.32,-43.85 -180.28,-104.77 -233.89,-182.73 -51.17,-80.4 -77.96,-168.11 -77.96,-270.44l146.18 0c0,121.83 46.29,219.27 136.44,289.94 92.58,68.21 211.96,104.76 365.46,104.76 134,0 241.2,-29.23 324.03,-90.15 80.4,-58.47 121.82,-136.43 121.82,-236.32z"/> <path id="_1_0" fill="#0086D8" fill-rule="nonzero" d="M9857.45 3198.57c46.29,-77.97 107.21,-136.44 180.29,-177.86 73.1,-41.42 153.5,-63.35 238.77,-63.35 138.88,0 241.2,38.98 309.42,116.94 65.78,77.97 99.88,194.92 102.32,348.4l0 845.43 -141.3 0 0 -845.43c-2.44,-114.51 -26.81,-202.22 -75.54,-258.26 -46.29,-56.03 -124.25,-82.84 -229.01,-82.84 -87.71,0 -165.68,26.81 -233.9,82.84 -68.21,53.6 -116.94,129.13 -151.06,221.71l0 881.97 -141.3 0 0 -1827.29 141.3 0 0 757.72z"/> <path id="_2_1" fill="#0086D8" fill-rule="nonzero" d="M11214.11 4268.14l-143.75 0 0 -1286.4 143.75 0 0 1286.4zm-168.11 -1659.18c0,-26.8 7.31,-51.17 24.36,-68.21 19.5,-19.5 41.42,-29.24 73.1,-29.24 29.23,0 53.59,9.75 70.65,29.24 19.5,17.05 26.8,41.42 26.8,68.21 0,26.81 -7.3,48.73 -26.8,68.22 -17.06,17.05 -41.42,26.8 -70.65,26.8 -31.68,0 -53.6,-9.75 -73.1,-26.8 -17.05,-19.5 -24.36,-41.42 -24.36,-68.22z"/> <path id="_3" fill="#0086D8" fill-rule="nonzero" d="M12634.93 3637.12c0,202.22 -43.85,360.58 -134,477.53 -87.71,119.38 -207.09,177.85 -355.71,177.85 -175.42,0 -311.86,-63.34 -404.44,-185.16l0 655.39 -141.3 0 0 -1780.99 131.56 0 7.31 180.28c92.57,-136.43 226.58,-204.65 402,-204.65 153.5,0 275.31,58.48 363.02,175.42 87.71,116.94 131.56,277.75 131.56,484.84l0 19.5zm-143.75 -24.37c0,-163.24 -31.67,-294.8 -99.88,-389.82 -68.22,-95.02 -160.81,-141.31 -282.63,-141.31 -87.71,0 -160.8,19.5 -224.15,63.35 -63.34,41.42 -112.07,102.32 -143.75,182.73l0 616.4c34.12,73.1 82.85,131.56 146.19,170.56 63.35,36.54 138.88,56.03 224.15,56.03 119.38,0 214.4,-46.29 280.19,-141.31 68.21,-97.45 99.88,-233.89 99.88,-416.62z"/> </g></g> </svg>
+                  </div>
+                  <div class="connection__card-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82 48" width="256" height="150" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M39.7434 45.0969V39.5747C39.7709 38.9225 40.3607 38.4313 41.0081 38.5434C41.4813 38.6679 41.812 39.0858 41.8326 39.5747V45.0853L59.392 34.8469V31.2573C59.4302 30.3457 59.8673 30.2673 60.304 30.2109C60.8968 30.1342 61.4499 30.515 61.4812 31.2573V35.456C61.4661 35.8289 61.2749 36.1678 60.9589 36.3696L41.382 47.7843C41.2878 47.8549 41.1825 47.9077 41.0689 47.9396C40.8846 48.011 40.8101 47.9909 40.7069 47.9694C40.6473 47.9633 40.5865 47.9519 40.5247 47.935C40.3756 47.8998 40.2407 47.8398 40.1265 47.7525L20.6043 36.3696C20.2919 36.1701 20.0971 35.8333 20.082 35.456V31.8182C20.108 31.1994 20.6327 30.7179 21.2593 30.7718C21.772 30.8606 22.1492 31.295 22.1712 31.8182V34.8469L39.7434 45.0969Z" fill="black"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M20.3138 11.8924C20.3884 11.7832 20.4851 11.6856 20.6043 11.6065L40.2657 0.142417C40.4318 0.0585488 40.4789 -0.040616 40.9694 0.0174059C41.1968 0.0717356 41.2432 0.108659 41.3103 0.142417L60.9589 11.5991C61.1062 11.6972 61.2222 11.8254 61.3036 11.9705C61.4086 12.1324 61.4723 12.3233 61.4812 12.528V17.7036C61.453 18.3698 61.172 18.5101 60.9067 18.6451C60.2721 18.9684 59.4291 18.586 59.392 17.7036V14.3552L41.8306 24.5946L41.8196 27.8924C41.7973 28.384 41.6784 28.4626 41.5267 28.6214C40.9473 29.2279 39.7689 28.8784 39.7304 27.8854L39.7413 24.5998L22.1712 14.3552L22.1674 16.6681C22.0412 17.6635 21.7284 17.6086 21.1709 17.6324C20.6003 17.6571 20.1116 17.2816 20.082 16.5785V12.528C20.092 12.2875 20.1768 12.068 20.3138 11.8924ZM23.2158 12.5201L40.775 22.7586L58.3475 12.5127L40.788 2.27446C34.9306 5.68985 29.0732 9.1047 23.2158 12.5201Z" fill="black"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M6.80175 17.1998C8.46291 17.3649 7.95472 18.4779 7.47206 18.9985L2.53499 23.9843L7.51881 29.0208C8.0398 29.6619 7.8395 29.8365 7.67033 30.183C7.38124 30.775 6.51898 30.9582 5.99481 30.4623L0.319053 24.7303C0.175422 24.5754 0.163357 24.538 0.120843 24.4509C-0.0733458 24.0532 -0.0515139 23.638 0.319053 23.2384L5.99481 17.5063C6.21459 17.2985 6.48979 17.1893 6.80175 17.1998Z" fill="#286EFA"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M74.8978 17.1998C75.2822 17.2378 75.3856 17.3338 75.5679 17.5063L81.2436 23.2384C81.3872 23.3932 81.3993 23.4306 81.4421 23.5177C81.6364 23.9154 81.6144 24.3307 81.2436 24.7303L75.5679 30.4623C74.7876 31.2007 73.0786 30.062 74.0908 28.9704L79.028 23.9843L74.0438 18.9479C73.709 18.5359 73.7743 18.3787 73.7868 18.1836C73.8302 17.5158 74.7834 17.1956 74.8978 17.1998Z" fill="#286EFA"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12.3962 22.4278C13.2428 22.4278 13.9301 23.1219 13.9301 23.9768C13.9301 24.8317 13.2428 25.5258 12.3962 25.5258C11.5497 25.5258 10.8624 24.8317 10.8624 23.9768C10.8624 23.1219 11.5497 22.4278 12.3962 22.4278Z" fill="#286EFA"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M19.4748 20.3328C20.8938 20.3328 22.0458 21.4962 22.0458 22.9293C22.0458 24.3623 20.8938 25.5258 19.4748 25.5258C18.0558 25.5258 16.9038 24.3623 16.9038 22.9293C16.9038 21.4962 18.0558 20.3328 19.4748 20.3328Z" fill="#286EFA"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3187 27.3652C27.7377 27.3652 28.8897 28.5286 28.8897 29.9617C28.8897 31.3947 27.7377 32.5582 26.3187 32.5582C24.8997 32.5582 23.7477 31.3947 23.7477 29.9617C23.7477 28.5286 24.8997 27.3652 26.3187 27.3652Z" fill="#286EFA"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M27.1742 21.3329C27.7257 21.3329 28.1735 21.7852 28.1735 22.3422C28.1735 22.8992 27.7257 23.3514 27.1742 23.3514C26.6226 23.3514 26.1748 22.8992 26.1748 22.3422C26.1748 21.7852 26.6226 21.3329 27.1742 21.3329Z" fill="#286EFA"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M36.9665 35.8893C37.5181 35.8893 37.9658 36.3415 37.9658 36.8985C37.9658 37.4556 37.5181 37.9078 36.9665 37.9078C36.4149 37.9078 35.9672 37.4556 35.9672 36.8985C35.9672 36.3415 36.4149 35.8893 36.9665 35.8893Z" fill="#286EFA"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M33.9278 27.4927C35.0605 27.4927 35.9802 28.4215 35.9802 29.5655C35.9802 30.7095 35.0605 31.6382 33.9278 31.6382C32.795 31.6382 31.8754 30.7095 31.8754 29.5655C31.8754 28.4215 32.795 27.4927 33.9278 27.4927Z" fill="#286EFA"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M45.3269 32.7912C46.1734 32.7912 46.8607 33.4853 46.8607 34.3403C46.8607 35.1952 46.1734 35.8893 45.3269 35.8893C44.4803 35.8893 43.7931 35.1952 43.7931 34.3403C43.7931 33.4853 44.4803 32.7912 45.3269 32.7912Z" fill="#286EFA"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M49.26 25.1109C49.9272 25.1109 50.4688 25.6579 50.4688 26.3317C50.4688 27.0055 49.9272 27.5525 49.26 27.5525C48.5928 27.5525 48.0511 27.0055 48.0511 26.3317C48.0511 25.6579 48.5928 25.1109 49.26 25.1109Z" fill="#286EFA"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M56.0138 24.7803C57.4266 24.7803 58.5731 25.9386 58.5731 27.3652C58.5731 28.7918 57.4266 29.95 56.0138 29.95C54.601 29.95 53.4546 28.7918 53.4546 27.3652C53.4546 25.9386 54.601 24.7803 56.0138 24.7803Z" fill="#286EFA"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M62.9578 22.9293C63.8039 22.9293 64.4913 23.6234 64.4913 24.4783C64.4913 25.3332 63.8039 26.0273 62.9578 26.0273C62.1112 26.0273 61.4238 25.3332 61.4238 24.4783C61.4238 23.6234 62.1112 22.9293 62.9578 22.9293Z" fill="#286EFA"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M68.062 16.7473C68.9087 16.7473 69.596 17.4414 69.596 18.2964C69.596 19.1515 68.9087 19.8454 68.062 19.8454C67.2159 19.8454 66.5286 19.1515 66.5286 18.2964C66.5286 17.4414 67.2159 16.7473 68.062 16.7473Z" fill="#286EFA"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M69.3516 22.9293C70.0629 22.9293 70.6406 23.5127 70.6406 24.2312C70.6406 24.9498 70.0629 25.5331 69.3516 25.5331C68.6397 25.5331 68.062 24.9498 68.062 24.2312C68.062 23.5127 68.6397 22.9293 69.3516 22.9293Z" fill="#286EFA"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-app">
+        <div class="container">
+          <h2 class="mobile-app__title">Удобство для получателей</h2>
+          <h3 class="mobile-app__subtitle">Полноценный личный кабинет вместо стандартных смс-уведомлений</h3>
+          <div class="mobile-app__body">
+            <div class="mobile-app__image">
+              <img src="images/mobile-app/phone.png" alt="">
+            </div>
+            <div class="mobile-app__content">
+              <div class="mobile-app__info-block">
+                <div class="mobile-app__icon"><img src="images/mobile-app/icons/1.svg" alt=""></div>
+                <div class="mobile-app__info">
+                  <h3 class="mobile-app__info-title">Изменение параметров</h3>
+                  <p class="mobile-app__info-text">Возможность самостоятельно вносить изменения в заказ (адрес, дата и
+                    время доставки)</p>
+                </div>
+              </div>
+              <div class="mobile-app__info-block">
+                <div class="mobile-app__icon"><img src="images/mobile-app/icons/2.svg" alt=""></div>
+                <div class="mobile-app__info">
+                  <h3 class="mobile-app__info-title">Вся информация о заказе</h3>
+                  <p class="mobile-app__info-text">Всё, что нужно видеть получателю: номер заказа и статус, информация
+                    об отправителе, сумма и способ оплаты, электронный чек</p>
+                </div>
+              </div>
+              <div class="mobile-app__info-block">
+                <div class="mobile-app__icon"><img src="images/mobile-app/icons/3.svg" alt=""></div>
+                <div class="mobile-app__info">
+                  <h3 class="mobile-app__info-title">Мы на связи</h3>
+                  <p class="mobile-app__info-text">Оперативная связь со службой поддержки, оценка работы курьера и
+                    компании, возможность оставить отзыв</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clients">
+        <div class="clients__bg">
+          <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="500%" viewBox="0 0 1440 1482" fill="">
+            <path d="M0 343.5C123.5 468 503.181 464.965 735.5 295C966.5 126 1216 0 1440 0V431.31V852C1145 1007.5 994.5 1286 730 1409.5C457.418 1536.77 110 1474.5 0 1387.5V343.5Z" fill="url(#paint0_linear_272_17987)"/>
+            <path d="M0 343.5C123.5 468 503.181 464.965 735.5 295C966.5 126 1216 0 1440 0V431.31V852C1145 1007.5 994.5 1286 730 1409.5C457.418 1536.77 110 1474.5 0 1387.5V343.5Z" fill="url(#paint1_linear_272_17987)" fill-opacity="0.8"/>
+            <defs>
+              <linearGradient id="paint0_linear_272_17987" x1="0.00095168" y1="-352.107" x2="1390.59" y2="560.212" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#001AFF"/>
+                <stop offset="1" stop-color="#55CCFF"/>
+              </linearGradient>
+              <linearGradient id="paint1_linear_272_17987" x1="720" y1="300.5" x2="104.466" y2="1534.12" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1DD6FF" stop-opacity="0"/>
+                <stop offset="1" stop-color="#7100E1"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="container">
+          <div class="clients__body">
+            <h2 class="clients__title">Наши клиенты</h2>
+            <div class="clients__swiper swiper">
+              <div class="clients__wrapper swiper-wrapper">
+                <div class="clients__slide swiper-slide">
+                  <div class="clients__slide-body">
+                    <img data-src="images/clients/mts.svg" alt="" class="clients__logo swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                <div class="clients__slide swiper-slide">
+                  <div class="clients__slide-body">
+                    <img data-src="images/clients/tsum.svg" alt="" class="clients__logo swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                <div class="clients__slide swiper-slide">
+                  <div class="clients__slide-body">
+                    <img data-src="images/clients/zolotoe-yabloko.svg" alt="" class="clients__logo swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                <div class="clients__slide swiper-slide">
+                  <div class="clients__slide-body">
+                    <img data-src="images/clients/lego.svg" alt="" class="clients__logo swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                <div class="clients__slide swiper-slide">
+                  <div class="clients__slide-body">
+                    <img data-src="images/clients/detmir.svg" alt="" class="clients__logo swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                <div class="clients__slide swiper-slide">
+                  <div class="clients__slide-body">
+                    <img data-src="images/clients/cainiao.svg" alt="" class="clients__logo swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                <div class="clients__slide swiper-slide">
+                  <div class="clients__slide-body">
+                    <img data-src="images/clients/pandora.svg" alt="" class="clients__logo swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                <div class="clients__slide swiper-slide">
+                  <div class="clients__slide-body">
+                    <img data-src="images/clients/henderson.svg" alt="" class="clients__logo swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                <div class="clients__slide swiper-slide">
+                  <div class="clients__slide-body">
+                    <img data-src="images/clients/pyat-karmanov.svg" alt="" class="clients__logo swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                <div class="clients__slide swiper-slide">
+                  <div class="clients__slide-body">
+                    <img data-src="images/clients/aliexpress.svg" alt="" class="clients__logo swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                <div class="clients__slide swiper-slide">
+                  <div class="clients__slide-body">
+                    <img data-src="images/clients/sokolov.svg" alt="" class="clients__logo swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                <div class="clients__slide swiper-slide">
+                  <div class="clients__slide-body">
+                    <img data-src="images/clients/brandshop.svg" alt="" class="clients__logo swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form">
+        <div class="container">
+          <div class="form__body">
+            <h2 class="form__title">Начните доставлять уже сегодня</h2>
+            <h3 class="form__subtitle">Оставьте заявку на подключение, и мы свяжемся с вами в ближайшее время</h3>
+            <iframe name="myIFR" style="display: none"></iframe>
+            <form novalidate target="myIFR" method="post" action="#" class="form__form">
+              <input type="text" name="name" class="form__name form__input" placeholder="Введите имя" required>
+              <input type="email" name="email" class="form__email form__input" placeholder="Введите электронный адрес" required>
+              <input type="tel" name="tel" class="form__tel form__input" placeholder="+7 (999) 999-99-99" required>
+              <p class="form__personal-data">Отправляя форму, вы даёте согласие с Политикой обработки персональных данных</p>
+              <button type="button" class="form__button btn btn_gradient"><span>Отправить заявку</span></button>
+              <div class="form-sent">
+                <div class="form-sent__body">
+                  <img src="images/form/mark.png" alt="" class="form-sent__icon">
+                  <h2 class="form-sent__title">Спасибо!</h2>
+                  <p class="form-sent__text">Ваша заявка успешно отправлена.<br>Мы свяжемся с вами в ближайшее время</p>
+                  <button class="form-sent__button btn btn_gradient"><span>Готово</span></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="form form_modal">
+      <div class="form__close-icon"></div>
+      <div class="form__close-window"></div>
+      <form novalidate target="myIFR" method="post" action="#" class="form__form">
+        <h2 class="form__title form_modal__title">Начните доставлять уже сегодня</h2>
+        <h3 class="form__subtitle form_modal__subtitle">Оставьте заявку на подключение, и мы свяжемся с вами в ближайшее время</h3>
+        <input type="text" name="name" class="form__name form__input" placeholder="Введите имя" required>
+        <input type="email" name="email" class="form__email form__input" placeholder="Введите электронный адрес" required>
+        <input type="tel" name="tel" class="form__tel form__input" placeholder="+7 (999) 999-99-99" required>
+        <p class="form__personal-data">Отправляя форму, вы даёте согласие с Политикой обработки персональных данных</p>
+        <button type="button" class="form__button btn btn_gradient"><span>Отправить заявку</span></button>
+      </form>
+      <div class="form-sent">
+        <div class="form-sent__body">
+          <img src="images/form/mark.png" alt="" class="form-sent__icon">
+          <h2 class="form-sent__title">Спасибо!</h2>
+          <p class="form-sent__text">Ваша заявка успешно отправлена.<br>Мы свяжемся с вами в ближайшее время</p>
+          <button class="form-sent__button btn btn_gradient"><span>Готово</span></button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+<div class="container">
+    <div class="footer__body">
+        <div class="footer__left">
+            <img src="images/footer/logo.svg" alt="" class="footer__logo">
+            <p class="footer__rights">2013-2022 Dalli Service<br>Все права защищены.</p>
+        </div>
+        <div class="footer__contacts">
+            <p class="footer__tel footer__item">+7 (495) 646-86-82</p>
+            <p class="footer__mail footer__item">info@dalli-service.com</p>
+            <a href="https://www.dalli-service.com" target="_blank" class="footer__site footer__item">www.dalli-service.com</a>
+        </div>
+    </div>
+</div>
+</footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/app.min.js"></script>
+  </body>
+</html> 
